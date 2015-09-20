@@ -1,0 +1,24 @@
+{
+    "name": "inewspjb/log-viewer",
+    "description": "Laravel log viewer for iNews CMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BinhBEER",
+            "email": "binhbeer@taymay.vn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*|5.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers"
+        ],
+        "psr-0": {
+            "binhbeer\\LogViewer\\": "src/"
+        }
+    }
+}
