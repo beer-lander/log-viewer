@@ -1,4 +1,4 @@
-<?php namespace BinhBEER\LaravelLogViewer;
+<?php namespace BinhBEER\LogViewer;
 
 use Illuminate\Support\ServiceProvider;
 
